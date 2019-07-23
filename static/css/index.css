@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style:none
+}
+
+ .container{  
+    background: url(../images/back_l_o.jpg) no-repeat;
+
+} 
+
+
+
+
+.header_bg{
+    background: url(../images/gdbk-hearder.jpg) no-repeat;
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+
+.m1_bg{
+    background-size: 100%;
+    text-align: center;
+     margin-top: 50px;
+}
+
+.m2{
+    margin:50px 0px;
+    
+}
+
+.m2 ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.m2 ul li a{
+    color:#333;
+    font-size: 12px;
+}
+
+.m2 ul li a:hover{
+    color:#9b745c;
+    border-bottom:3px solid #dfc8c2;
+    padding:0px 0px 5px 0px;
+}
