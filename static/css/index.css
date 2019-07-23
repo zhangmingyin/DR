@@ -1,3 +1,11 @@
+.tupian{
+    margin-top:100px;
+}
+
+.tupian img{
+    width: 100%;
+}
+
 *{
     margin:0;
     padding:0;
@@ -11,10 +19,12 @@ ul li{
     list-style:none
 }
 
- .container{  
-    background: url(../images/back_l_o.jpg) no-repeat;
-
-} 
+  .container{  
+    background: url(../images/zj1.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+}  
 
 
 
@@ -22,18 +32,18 @@ ul li{
 .header_bg{
     background: url(../images/gdbk-hearder.jpg) no-repeat;
     margin: 0 auto;
-    width: 1200px;
+    width: 800px;
    
 }
 
 .m1_bg{
     background-size: 100%;
     text-align: center;
-     margin-top: 50px;
+     margin-top: 100px;
 }
 
 .m2{
-    margin:50px 0px;
+    padding:20px ;
     
 }
 
