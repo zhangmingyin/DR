@@ -1,10 +1,4 @@
-.tupian{
-    margin-top:100px;
-}
 
-.tupian img{
-    width: 100%;
-}
 
 *{
     margin:0;
@@ -19,32 +13,40 @@ ul li{
     list-style:none
 }
 
-  .container{  
-    background: url(../images/zj1.jpg) no-repeat;
-    background-size: 100% 100%;
-    margin-left: -20px;
-    margin-right: -20px;
-}  
 
 
 
 
 .header_bg{
-    background: url(../images/gdbk-hearder.jpg) no-repeat;
-    margin: 0 auto;
-    width: 800px;
+    background: url(../images/ggwbk.jpg) no-repeat;
+  
    
+}
+.m0_bg{
+    display:inline-block;
+    top: 10px;
+    left:10px;
+}
+
+.m0_bg span{
+    font-size: 12px;
+    cursor: pointer;
+    color:#797979;
+    align-items: center;
 }
 
 .m1_bg{
     background-size: 100%;
     text-align: center;
-     margin-top: 100px;
+     margin-top: 50px;
 }
 
 .m2{
     padding:20px ;
-    
+    margin-top:40px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
 }
 
 .m2 ul{
@@ -61,6 +63,15 @@ ul li{
 
 .m2 ul li a:hover{
     color:#9b745c;
-    border-bottom:3px solid #dfc8c2;
+    border-bottom:3px solid #9b745b;
     padding:0px 0px 5px 0px;
+}
+
+.dr_show{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.dr_show img{
+    width: 100%;
 }
