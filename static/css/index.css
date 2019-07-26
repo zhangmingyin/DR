@@ -14,39 +14,44 @@ ul li{
    
 }
 
-.back_b{
+.drbackground {
+    width: 584px;
+    height: 1260px;
+    position: fixed;
+    top: -100px;
+    background-repeat: no-repeat;
+    background-position: center top}
+
+.drbackground.back_l {
+    left: 50%;
+    margin-left: -1264px;
     background-image: url(../images/back_l_o.jpg);
-    left:50%;
-    margin-left:-1264;
-    background-size: 100% 100%;
-}
-
-.back_r{
-    left:50%;
-    margin-left:680px;
-    background-image: url(../images/back_r_o.jpg);
-    background-size: 100% 100%;
 }
 
 
+.drbackground.back_r {
+    left: 50%;
+    margin-left: 680px;
+    background-image: url(//res.darryring.com/webimg/index/back_r_o.jpg);
+    
+}
 
 .header_bg{
-    /* background: url(../images/ggwbk.jpg) no-repeat; */
+    
     position: relative;
-    box-shadow:5px 5px 10px black
+    width: 1360px;
+    margin:0 auto;
    
 }
-.m0_bg{
-    position: absolute;
-    top:50px;
-    left:200px;
-}
+
 .m01_bg{
     display: flex;
     justify-content:space-between;
-    
     height: 40px;
     line-height: 40px;
+    border:1px solid #b8b7b6;
+    border-left:none;
+    border-right: none;
     
 }
 
@@ -57,8 +62,29 @@ ul li{
     width:100%;
     height:2px;
     top:30px;
-    background: linear-gradient(to right, #978787 , #f6f6f6);
+    
 }
+div .imgs img{
+    vertical-align: middle
+}
+
+div .imgs .imgsi{
+    margin-left:10px;
+}
+
+div .imgs a{
+    display: inline;
+    font-size: 14px;
+    color:#8d8d8d;
+    font-family:"Garamond";
+    margin-left:10px;
+}
+div .imgs span{
+    font-size: 12px;
+    color:#8d8d8d
+}
+
+div .imgs a:hover{color:#bf967c}
 
 .m0_bg span{
     margin-left:10px;
@@ -78,7 +104,7 @@ ul li{
 .m1_bg{
     background-size: 100%;
     text-align: center;
-     margin-top: 50px;
+     margin-top: 30px;
     
 }
 
@@ -114,11 +140,20 @@ ul li{
     padding:0px 0px 5px 0px;
 }
 
-.dr_show{
+
+
+.dr_show img{
+    width: 100%;
+}
+
+.lb_bg{
     width: 1200px;
     margin:0 auto;
 }
 
-.dr_show img{
-    width: 100%;
+.lb_bg img{width: 100%;}
+
+.show_bg{
+    background-image: url(../images/back_l_o.jpg);
+    background-size: 100% 100%;
 }
