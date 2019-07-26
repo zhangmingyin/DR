@@ -44,6 +44,38 @@ ul li{
    
 }
 
+.m00_bg{
+    position: relative;
+}
+.m00_bg:hover .m00_bg1{
+    height: 300px;
+    opacity: 1;
+}
+.m00_bg1{
+    position:absolute;
+    width: 350px;
+    height: 0px;
+    border:1px solid #8d8d8d;
+    background:#fff;
+    text-align: center;
+    left: -100px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.m00_bg1 h2{
+    margin: 20px 0px 10px 0;
+}
+.button_bg{
+    background:#000;
+    color:#fff;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    border:1px solid #000;
+    cursor: pointer;
+}
+
 .m01_bg{
     display: flex;
     justify-content:space-between;
@@ -52,6 +84,8 @@ ul li{
     border:1px solid #b8b7b6;
     border-left:none;
     border-right: none;
+    position: relative;
+    top:20px;
     
 }
 
@@ -65,23 +99,28 @@ ul li{
     
 }
 div .imgs img{
-    vertical-align: middle
+    vertical-align: middle;
+    margin-left:10px;
 }
 
 div .imgs .imgsi{
     margin-left:10px;
 }
 
+
+.ff{
+    cursor: pointer;
+}
 div .imgs a{
     display: inline;
     font-size: 14px;
-    color:#8d8d8d;
+    color:#000;
     font-family:"Garamond";
     margin-left:10px;
 }
 div .imgs span{
     font-size: 12px;
-    color:#8d8d8d
+    color:#000
 }
 
 div .imgs a:hover{color:#bf967c}
@@ -108,7 +147,10 @@ div .imgs a:hover{color:#bf967c}
     
 }
 
-
+.imgs div{
+    display: inline-block;
+    cursor: pointer;
+}
 
 .m2{
     padding:20px ;
