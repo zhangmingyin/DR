@@ -58,7 +58,7 @@ ul li{
     border:1px solid #8d8d8d;
     background:#fff;
     text-align: center;
-    left: -100px;
+    left: -125px;
     opacity: 0;
     overflow: hidden;
     transition: all .5s linear;
@@ -73,7 +73,7 @@ ul li{
     width: 200px;
     height: 50px;
     border:1px solid #000;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 .m01_bg{
@@ -146,8 +146,10 @@ div .imgs a:hover{color:#bf967c}
      margin-top: 30px;
     
 }
-
-.imgs div{
+ .imgs div{
+    display: inline-block;
+ }
+.imgs div div:first-child{
     display: inline-block;
     cursor: pointer;
 }
