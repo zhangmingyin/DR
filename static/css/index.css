@@ -57,6 +57,7 @@ ul li{
     height: 0px;
     border:1px solid #8d8d8d;
     background:#fff;
+    z-index: 2;
     text-align: center;
     left: -125px;
     opacity: 0;
@@ -66,6 +67,11 @@ ul li{
 .m00_bg1 h2{
     margin: 20px 0px 10px 0;
 }
+
+div.m00_bg1 .button_bg:hover{
+    background:#2451cc
+}
+
 .button_bg{
     background:#000;
     color:#fff;
@@ -152,10 +158,11 @@ div .imgs a:hover{color:#bf967c}
 .imgs div div:first-child{
     display: inline-block;
     cursor: pointer;
+    
 }
 
 .m2{
-    padding:20px ;
+    margin:20px ;
     
     height: 30px;
     line-height: 30px;
@@ -167,7 +174,7 @@ div .imgs a:hover{color:#bf967c}
     flex-flow: row nowrap;
     justify-content:space-around;
     align-items: center;
-    margin:0 200px;
+    /* margin:0 200px; */
     border:none;
 }
 
@@ -200,4 +207,58 @@ div .imgs a:hover{color:#bf967c}
 .show_bg{
     background-image: url(../images/back_l_o.jpg);
     background-size: 100% 100%;
+}
+
+
+
+div ul.m2_title{
+    position: relative;
+}
+
+
+
+li.m2_title0:hover .m2_title1{
+    height: 250px;
+    opacity: 1;
+}
+
+
+.m2_title1{
+    top:50px;
+    width: 1360px;
+    height: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #8d8d8d;
+    left:-20px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+
+
+
+div.m2_title1 p{
+    cursor: pointer;
+    margin-top:20px;
+}
+
+div.m2_title1 p:hover{
+    color:#9b745b
+}
+
+div.m2_title1 span:hover{
+    cursor: pointer;
+    color:#9b745b
+}
+
+
+.m2_title1 img.img1{
+    vertical-align: middle;
+}
+
+.m00_bg1 h2{
+    margin: 20px 0px 10px 0;
 }
