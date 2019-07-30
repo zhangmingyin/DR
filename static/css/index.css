@@ -569,12 +569,14 @@ div.m2_title1 span:hover{
 
 .header_{
     position: fixed;
-    right: 40px;
-    bottom:-70px;
+    right: 140px;
+    top:250px;
     background: gray;
     width: 50px;
+    height: 400px;
     text-align: center;
     z-index: 10;
+    background: #f4f2f3;
 }
 
 .header_1:hover{
@@ -585,8 +587,7 @@ div.m2_title1 span:hover{
     background: #cebeb0;
     width: 58px;
     position: relative;
-    top: -700px;
-    right: 150px;
+    top: 0px;
     font-size: 12px;
     color: #fff;
     line-height: 16px;
@@ -595,21 +596,6 @@ div.m2_title1 span:hover{
 }
 
 
-.header_1_left{
-    left: 0;
-    width: 4px;
-    height: 4px;
-    bottom: 5px;
-    position: absolute
-}
-
-.header_1_right{
-    right: 0; 
-    width: 4px;
-    height: 4px;
-    bottom: 5px;
-    position: absolute
-}
 
 .header_2{
     position: absolute;
@@ -617,18 +603,12 @@ div.m2_title1 span:hover{
     height: 60px;
     margin: 15px 0;
     z-index: 1;
-    top:100px;
-    right: 5px;
+    top:99px;
+    right: 0px;
     display: inline-block;
 }
 
-.icon_servie{
-    display: inline-block;
-    position: absolute;
-    background-image: url(../images/icon_servie.png);
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-top: 5px;
-    width: 30px;
-    height: 26px;
+.header_2 img{
+
+
 }
