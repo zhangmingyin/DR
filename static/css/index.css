@@ -558,7 +558,7 @@ div.m2_title1 span:hover{
 
 .header_{
     position: fixed;
-    right: 140px;
+    right: 100px;
     top:250px;
     background: gray;
     width: 50px;
@@ -623,4 +623,69 @@ div .imgwra2{
     height: 600px;
     font-size: 0;
     cursor: pointer;
+}
+
+div.txt {
+    height: 148px;
+    background-color: #fdf0eb;
+}
+div.txt P{
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #3e3a39;
+    padding-top:58px;
+}
+
+div.txt1 {
+    height: 148px;
+    background-color: #fdf0eb;
+}
+div.txt1 P{
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #3e3a39;
+    padding-top:38px;
+}
+
+.imgwra .imgwra1{
+    overflow: hidden;
+}
+
+.imgwra .imgwra1 img{
+    transition:all 0.7s;
+}
+
+.imgwra .imgwra1:hover img{
+    transform: scale(1.1);
+}
+
+
+
+.imgwra .imgwra2{
+    overflow: hidden;
+}
+
+.imgwra .imgwra2 img{
+    transition:all 0.7s;
+}
+
+.imgwra .imgwra2:hover img{
+    transform: scale(1.1);
+}
+
+
+.imgwra1 div:first-child{
+    overflow: hidden;
+}
+.imgwra1:hover .txt{
+    background:#ead2ca;
+}
+
+.imgwra2 div:first-child{
+    overflow: hidden;
+}
+.imgwra2:hover .txt1{
+    background:#ead2ca;
 }
