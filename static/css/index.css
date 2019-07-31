@@ -114,9 +114,6 @@ div .imgs .imgsi{
 }
 
 
-.ff{
-    cursor: pointer;
-}
 div .imgs a{
     display: inline;
     font-size: 14px;
@@ -172,7 +169,7 @@ div .imgs a:hover{color:#bf967c}
     flex-flow: row nowrap;
     justify-content:space-around;
     align-items: center;
-    margin:0 200px;
+
     border:none;
 }
 
@@ -211,6 +208,7 @@ div .imgs a:hover{color:#bf967c}
 
 div ul.m2_title{
     position: relative;
+    width: 100%;
 }
 
 
@@ -219,21 +217,20 @@ li.m2_title0:hover .m2_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+    
 }
 
 
 .m2_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0px;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -246,21 +243,20 @@ li.m3_title:hover .m3_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+   
 }
 
 
 .m3_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -273,21 +269,20 @@ li.m4_title:hover .m4_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+   
 }
 
 
 .m4_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0px;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -300,21 +295,20 @@ li.m5_title:hover .m5_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+   
 }
 
 
 .m5_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0px;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -327,21 +321,20 @@ li.m6_title:hover .m6_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+    
 }
 
 
 .m6_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0px;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -354,21 +347,20 @@ li.m7_title:hover .m7_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+    
 }
 
 
 .m7_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0px;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -381,21 +373,20 @@ li.m8_title:hover .m8_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
+    
 }
 
 
 .m8_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     position: absolute;
     border: 0;
-    left:-10px;
+    left:0px;
     opacity: 0;
     overflow: hidden;
     transition: all .3s linear;
@@ -408,14 +399,12 @@ li.m9_title:hover .m9_title1{
     height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
-    border-left: none;
-    border-right: none;
 }
 
 
 .m9_title1{
-    top:50px;
-    width: 920px;
+    top:35px;
+    width: 100%;
     height: 0px;
     display: flex;
     justify-content: space-evenly;
@@ -573,7 +562,7 @@ div.m2_title1 span:hover{
     top:250px;
     background: gray;
     width: 50px;
-    height: 400px;
+    height: 480px;
     text-align: center;
     z-index: 10;
     background: #f4f2f3;
@@ -585,7 +574,7 @@ div.m2_title1 span:hover{
 
 .header_1{
     background: #cebeb0;
-    width: 58px;
+    width: 50px;
     position: relative;
     top: 0px;
     font-size: 12px;
@@ -593,6 +582,7 @@ div.m2_title1 span:hover{
     line-height: 16px;
     padding-bottom: 14px;
     cursor: pointer;
+    
 }
 
 
@@ -600,15 +590,37 @@ div.m2_title1 span:hover{
 .header_2{
     position: absolute;
     width:50px;
-    height: 60px;
+    height: 70px;
     margin: 15px 0;
     z-index: 1;
     top:99px;
-    right: 0px;
-    display: inline-block;
+    text-align: center;
 }
 
-.header_2 img{
+.imgwra {
+    margin-top:50px;
+    text-align: center;
+    background: #f7f6f5;
+    margin-top: 23px;
+    padding-top: 50px;
+}
 
+div .imgwra1{
+    float: left;
+    margin-left: 56px;
+    margin-bottom: 56px;
+    width: 600px;
+    height: 600px;
+    font-size: 0;
+    cursor: pointer;
+}
 
+div .imgwra2{
+    float: left;
+    margin-left: 56px;
+    margin-bottom: 56px;
+    width: 600px;
+    height: 600px;
+    font-size: 0;
+    cursor: pointer;
 }
