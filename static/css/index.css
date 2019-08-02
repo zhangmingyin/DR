@@ -634,7 +634,7 @@ div.txt P{
     line-height: 36px;
     text-align: center;
     color: #3e3a39;
-    padding-top:58px;
+    padding-top:38px;
 }
 
 div.txt1 {
@@ -723,6 +723,7 @@ ul.slideUL{
     width: 3688px;
     left: 0px;
     position: absolute;
+    margin-left: -2305px;
     height: 100%;
 }
 
@@ -762,31 +763,145 @@ ul.slideUL{
     overflow: hidden;
     transition: all .3s linear;
     box-sizing: border-box;
+    background-color: rgba(255,255,255,.7);
+    box-sizing: border-box
 }
 
-.slideUL li .txt .bg{
+/* .slideUL li .txt .bg{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .7;
-    background-color: #fff;
-}
+    
+    
+} */
 
 .slideUL li .line{
     width: 30px;
     height: 1px;
     margin: 18px auto 14px;
     border-top: 1px solid #333;
+    box-sizing: border-box;
 }
 
 .slideUL li p{
     font-size: 16px;
     line-height: 24px;
+    box-sizing: border-box;
 }
 
 .slideUL li .con{
     font-weight: 400px;
-    z-index: 10;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+
+.pro_slidebox .left{
+    /* display: none; */
+    left: 28px;
+    background: url(../images/arrow.png) no-repeat left center;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 9999;
+    width: 26px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.pro_slidebox .right{
+    right: 28px;
+    background: url(../images/arrow.png) no-repeat right center;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 99999;
+    width: 26px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.pageul{
+    margin-top: 32px;
+    text-align: center;
+}
+
+.pageul li{
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #8b766c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pageul li.on{
+    background-color: #8b766c;
+}
+
+.btns{
+    margin-top: 44px;
+    text-align: center;
+}
+
+.btns a{
+    position: relative;
+    margin: 0 80px;
+}
+
+.btns a.con_btn{
+    display: inline-block;
+    width: 172px;
+    height: 44px;
+    font: 20px/44px "microsoft yahei";
+    text-align: center;
+    text-align: center;
+    color: #fff;
+    background-color: #8b766c;
+    cursor: pointer;
+}
+
+.ordercon{
+    position: relative;
+    margin: 116px auto 0;
+    width: 1360px;
+}
+
+.ordercon .text{
+     text-align: center
+}
+
+.ordercon .text h3{
+    font-size: 30px;
+    color: #4e3b35;
+    font-weight: 400;
+   
+}
+
+.ordercon .text h5{
+    margin-top: 18px;
+    font: 18px/26px "microsoft yahei";
+    color: #333;
+}
+
+.ordercon .btns{
+    text-align:center
+}
+
+.ordercon .btns a{
+    margin: 56px 80px 0;
+}
+
+.ordercon .btns a.btns_a{
+    display: inline-block;
+    width: 172px;
+    height: 44px;
+    font: 20px/44px "microsoft yahei";
+    text-align: center;
+    color: #fff;
+    background-color: #8b766c;
+    cursor: pointer;
 }
