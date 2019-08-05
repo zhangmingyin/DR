@@ -1269,12 +1269,22 @@ ul.slideUL{
 }
 
 .dr_decitem{
-    
     height: 70px;
     margin-right: 50px;
-    float: right;
+    float: right;  
 }    
 
+.dr_decitem a{
+    vertical-align: middle;
+    font-size: 12px;
+    color: #ddd;
+}    
+
+.dr_decitem span {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #ddd;
+}
 
 
 .dr_languebtn{
@@ -1292,3 +1302,51 @@ ul.slideUL{
     margin-right: 14px;
 }
 
+
+
+/* 导航栏下拉选内容 */
+
+
+.m3_title1 .m3_top .dr_cort{
+    min-height: 210px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.dr_navsuv-ring{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dr_navsuv-ring a {
+    display: block
+}
+
+.dr_navsuv-ring a:first-child{
+    z-index: 111;
+}
+
+.dr_navsuv-ring a img{
+    width: 200px;
+    height: 200px;
+}
+
+.dr_navsuv-font{
+    padding: 0 30px;
+    margin-top: 12px;
+}
+.dr_navsuv-font a{
+    display: block;
+    font-size: 12px;
+    color: #5e5e61;
+    width: 190px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #dbdbdb;
+}
