@@ -268,7 +268,7 @@ li.m3_title:hover .m3_title1{
 }
 
 li.m4_title:hover .m4_title1{
-    height: 350px;
+    height: 320px;
     opacity: 1;
     border: 1px solid #8d8d8d;
    
@@ -294,7 +294,7 @@ li.m4_title:hover .m4_title1{
 }
 
 li.m5_title:hover .m5_title1{
-    height: 350px;
+    height: 320px;
     opacity: 1;
     border: 1px solid #8d8d8d;
    
@@ -319,31 +319,7 @@ li.m5_title:hover .m5_title1{
     background: #fff
 }
 
-li.m6_title:hover .m6_title1{
-    height: 350px;
-    opacity: 1;
-    border: 1px solid #8d8d8d;
-    
-}
 
-
-.m6_title1{
-    top:35px;
-    width: 100%;
-    height: 0px;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    position: absolute;
-    border: 0;
-    left:0px;
-    opacity: 0;
-    overflow: hidden;
-    transition: all .3s linear;
-    box-sizing: border-box;
-    z-index: 10;
-    background: #fff
-}
 
 li.m7_title:hover .m7_title1{
     height: 350px;
@@ -372,7 +348,7 @@ li.m7_title:hover .m7_title1{
 }
 
 li.m8_title:hover .m8_title1{
-    height: 350px;
+    height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
     
@@ -398,7 +374,7 @@ li.m8_title:hover .m8_title1{
 }
 
 li.m9_title:hover .m9_title1{
-    height: 350px;
+    height: 250px;
     opacity: 1;
     border: 1px solid #8d8d8d;
 }
@@ -1388,3 +1364,46 @@ ul.slideUL{
     margin-left: 30px;
     margin-top: 20px;
 }
+
+.dr_navsuv-cort{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    min-height: 210px;
+    height: 350px;
+    width: 1000px;
+    margin-top:30px;
+    margin: 30px auto 0;
+}
+
+.dr_navsuv-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dr_navsuv-f1 h6{
+    font-size: 14px;
+    color: #493428;  
+    line-height: 14px;
+}
+
+.dr_navsuv-r3{
+    margin-top: 28px;
+}
+
+.dr_navsuv-f1{
+    margin-left: 50px;
+}
+
+.dr_navsuv-f1 p{
+    display: block;
+    font-size: 12px;
+    color: #5e5e61;
+    width: 190px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #dbdbdb;
+    box-sizing: border-box
+}
+
