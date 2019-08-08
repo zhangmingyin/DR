@@ -41,10 +41,9 @@
     margin: 0 auto;
 }
 
-.login-text{
-    height: 156px;
-    overflow: hidden;
-}
+
+
+.login-text div:first-child p{visibility: hidden;}
 
 .login-text input.ipTxt{
     background-color: #fff;
@@ -92,6 +91,18 @@
     vertical-align: middle;
     margin: 0;
     margin-right: 4px;
+}
+
+.login-from p.dr_rejister{
+    margin-top: 18px;
+    color: #9b745c;
+    font-size: 12px;
+    line-height: 12px;;
+}
+
+.login-from p.dr_rejister a{
+    color:#888;
+    float: right;
 }
 
 .dr_btns{
@@ -148,9 +159,19 @@
     vertical-align: middle;
 }
 
+.dr_other a.qq:hover{
+    background: url(../picture/ico-otherLogin.png) no-repeat;
+    background-position: 0px -27px;
+}
+
 .dr_other a.qq{
     background: url(../picture/ico-otherLogin.png) no-repeat;
     background-position: 0px 0;
+}
+
+.dr_other a.wx:hover{
+    background: url(../picture/ico-otherLogin.png) no-repeat;
+    background-position: -42px -28px;
 }
 
 .dr_other a.wx{
@@ -158,9 +179,19 @@
     background-position: -42px 0;
 }
 
+.dr_other a.wb:hover{
+    background: url(../picture/ico-otherLogin.png) no-repeat;
+    background-position: -87px -28px;
+}
+
 .dr_other a.wb{
     background: url(../picture/ico-otherLogin.png) no-repeat;
     background-position: -87px 0;
+}
+
+.dr_other a.zfb:hover{
+    background: url(../picture/ico-otherLogin.png) no-repeat;
+    background-position: -130px -28px;
 }
 
 .dr_other a.zfb{
@@ -176,4 +207,8 @@
     width: 100%;
     height: 565px;
     overflow: hidden;
+}
+
+p.f1{
+    float: right;
 }
